@@ -1,4 +1,3 @@
-import { gql, useMutation } from "@apollo/client";
 import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
@@ -64,7 +63,7 @@ async function handleScubscribe(event: FormEvent) {
         </div>
       </div>
 
-      <img src="/src/assets/code-mockup.png" alt="" className="mt-10" />
+      <img src="\assets\code-mockup.png" alt="" className="mt-10" />
     </div>
   )
 }
