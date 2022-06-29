@@ -12,7 +12,7 @@ Nessa plataforma os que desejarem participar podem se inscrever no evento usando
 
 Por se tratar de um evento, as aulas são liberadas dia após dia, então todas as aulas do evento tem uma data e horário de lançamento, assim cada aula só pode ser acessada a partir de um momento específico.
 
-https://user-images.githubusercontent.com/89262324/175799554-40cdb3b5-1674-4001-bf08-09c03a18edac.png
+![image](https://user-images.githubusercontent.com/89262324/176469752-5db045e7-8317-477f-a581-f2c98da06080.png)
 
 A plataforma utiliza o **GraphCMS** para guardar as informações das aulas, como título, descrição, professor, data de lançamento etc. Como o próprio nome do CMS sugere, ele disponibiliza uma API **GraphQL** e, por conseguinte, utilizamos o **Apollo Client** para realizar as requisições ao CMS.
 
